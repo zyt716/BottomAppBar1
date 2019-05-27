@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="NamespaceTypo,ResAuto">
+    <item
+        android:id="@+id/bottom_app_home"
+        android:title="个人"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/bottom_item2"
+        android:title="设置"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/bottom_item3"
+        android:title="关于"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
